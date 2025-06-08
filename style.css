@@ -1,22 +1,17 @@
 body {
   font-family: Arial, sans-serif;
+  background: #f4f4f4;
   margin: 0;
   padding: 0;
-  line-height: 1.6;
-  background: #f4f4f4;
   color: #333;
+  line-height: 1.6;
 }
 
 header {
   background: #2d2d2d;
-  color: #fff;
+  color: white;
   padding: 2rem;
   text-align: center;
-}
-
-header h1 {
-  margin: 0;
-  font-size: 2rem;
 }
 
 section {
@@ -35,7 +30,7 @@ ul {
 }
 
 li {
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
 }
 
 a {
@@ -48,8 +43,15 @@ a:hover {
 }
 
 footer {
-  text-align: center;
-  padding: 1rem;
   background: #2d2d2d;
   color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.profile-pic {
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 1rem auto;
 }
