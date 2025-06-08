@@ -43,7 +43,7 @@ a:hover {
 }
 
 footer {
-  background: #2d2d2d;
+  background: linear-gradient(to bottom right, #f8f9fa, #e9ecef);
   color: white;
   text-align: center;
   padding: 1rem;
