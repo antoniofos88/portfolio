@@ -69,3 +69,31 @@ footer {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
+.project-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card h3 {
+  margin-top: 0;
+  color: #007acc;
+}
+
+.project-card ul {
+  margin: 1rem 0;
+  padding-left: 1.2rem;
+  list-style-type: disc;
+}
+
+.project-card p {
+  margin: 0.5rem 0;
+}
+
